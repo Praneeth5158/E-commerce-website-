@@ -65,7 +65,7 @@ function addToCart(id){
     cart.push(productToAdd);
     renderCartDetails()
     // feedbackElement.textContent = `${name} is added to the cart`;
-    updateUserFeedback(`☑️ Item is added to the cart`,"success");
+    updateUserFeedback(`☑️ ${productToAdd.name} is added to the cart`,"success");
 }
 
 function renderCartDetails(){
